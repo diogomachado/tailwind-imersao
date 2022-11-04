@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind - Imersão CSS</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-zinc-900 h-screen">
+    <main class="h-screen">
+        
+        <!-- Navbar principal -->
+        <nav class="hidden xl:flex justify-between border-b border-zinc-600">
+            <ul class="flex">
+                <li><a class="inline-block p-4 font-bold" href="#">Ementa</a></li>
+                <li><a class="inline-block p-4 font-bold" href="#">Alunos</a></li>
+                <li><a class="inline-block p-4 font-bold" href="#">Preço</a></li>
+                <li><a class="inline-block p-4 font-bold" href="#">Benefícios</a></li>
+                <li><a class="inline-block p-4 font-bold" href="#">FAQ</a></li>
+            </ul>
+            <aside class="pr-2">
+                <a class="inline-block p-4 font-bold" href="#">Acessar</a>
+                <button class="bg-gradient-to-r border border-blue-400 from-cyan-500 to-blue-500 rounded-lg pt-2 pb-2 pl-4 pr-4 text-neutral-900 font-bold">Começar</button>
+            </aside>
+        </nav>
+        
+        <section class="flex flex-col h-screen">
+            <!-- Bloco titulo central -->
+            <div class="flex flex-col items-center w-[800px] m-auto text-center">
+                <h1 class="text-7xl font-black mb-6">Curso online avançado de CSS</h1>
+                <p class="text-neutral-400 text-2xl">Aprenda CSS com vídeos curtos, suporte do instrutor e prática</p>
+                
+                <!-- Botão principal -->
+                <div class="flex flex-col items-center mt-16">
+                    <button class="btn-primary">Começar agora</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-white;
+  -webkit-font-smoothing: antialiased;
+}
+
+@layer components {
+  .btn-primary {
+    @apply pt-4 pb-4 pl-8 pr-8 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-xl text-neutral-900 font-bold text-xl border border-blue-400 hover:opacity-95 active:scale-95;
+  }
+}
